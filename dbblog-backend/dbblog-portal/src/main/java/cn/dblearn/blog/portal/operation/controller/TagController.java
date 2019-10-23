@@ -16,9 +16,6 @@ import java.util.List;
 /**
  * TagController
  *
- * @author bobbi
- * @date 2019/02/22 16:34
- * @email 571002217@qq.com
  * @description
  */
 @RestController("tagPortalController")

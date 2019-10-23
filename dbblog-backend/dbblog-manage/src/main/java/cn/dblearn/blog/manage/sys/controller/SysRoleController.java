@@ -20,10 +20,6 @@ import java.util.Map;
 /**
  * SysRoleController
  *
- * @author bobbi
- * @date 2018/10/25 15:32
- * @email 571002217@qq.com
- * @description
  */
 @RestController
 @RequestMapping("/admin/sys/role")

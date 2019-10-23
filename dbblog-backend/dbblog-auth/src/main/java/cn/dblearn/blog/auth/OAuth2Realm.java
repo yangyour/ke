@@ -17,9 +17,6 @@ import java.util.Set;
 /**
  * OAuth2Realm
  *
- * @author bobbi
- * @date 2018/10/07 16:39
- * @email 571002217@qq.com
  * @description Shiro 认证类
  */
 @Component

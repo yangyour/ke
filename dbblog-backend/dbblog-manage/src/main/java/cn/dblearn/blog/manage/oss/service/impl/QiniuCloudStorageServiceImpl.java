@@ -20,9 +20,6 @@ import java.io.InputStream;
 /**
  * QiniuCloudStorageService
  *
- * @author bobbi
- * @date 2018/10/22 12:35
- * @email 571002217@qq.com
  * @description
  */
 @Service("cloudStorageService")

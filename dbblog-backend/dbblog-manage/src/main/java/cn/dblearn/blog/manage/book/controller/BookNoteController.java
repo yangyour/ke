@@ -23,9 +23,7 @@ import java.util.Map;
 /**
  * BookNoteAdminController
  *
- * @author bobbi
- * @date 2018/11/20 20:25
- * @email 571002217@qq.com
+
  * @description
  */
 @RestController

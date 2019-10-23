@@ -10,9 +10,6 @@ import java.util.List;
  * <p>
  *  Mapper 接口
  * </p>
- *
- * @author bobbi
- * @since 2018-10-08
  */
 @Mapper
 public interface SysMenuMapper extends BaseMapper<SysMenu> {

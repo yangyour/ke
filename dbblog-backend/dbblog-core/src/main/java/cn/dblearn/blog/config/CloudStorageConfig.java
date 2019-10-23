@@ -10,9 +10,6 @@ import java.io.Serializable;
 /**
  * CloudStorageConfig
  *
- * @author bobbi
- * @date 2018/10/19 18:47
- * @email 571002217@qq.com
  * @description 云存储配置类
  */
 @Data

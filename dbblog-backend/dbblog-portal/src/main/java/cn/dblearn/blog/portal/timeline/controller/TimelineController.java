@@ -13,9 +13,6 @@ import java.util.List;
 /**
  * TimeLineController
  *
- * @author bobbi
- * @date 2019/02/24 20:46
- * @email 571002217@qq.com
  * @description
  */
 @RestController

@@ -6,8 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * BlogApplication
  *
- * @author: bobbi
- * @date: 2018/10/07 10:47
  * @description: 启动类
  */
 @SpringBootApplication

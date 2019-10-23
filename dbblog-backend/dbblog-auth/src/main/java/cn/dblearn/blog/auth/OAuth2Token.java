@@ -6,9 +6,6 @@ import org.apache.shiro.authc.AuthenticationToken;
 /**
  * OAuth2Token
  *
- * @author bobbi
- * @date 2018/10/07 16:39
- * @email 571002217@qq.com
  * @description Shiro 认证类
  */
 public class OAuth2Token implements AuthenticationToken {

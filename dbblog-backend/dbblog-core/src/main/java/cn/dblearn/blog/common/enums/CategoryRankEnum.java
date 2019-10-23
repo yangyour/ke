@@ -2,14 +2,7 @@ package cn.dblearn.blog.common.enums;
 
 import lombok.Getter;
 
-/**
- * CategoryRankEnum
- *
- * @author bobbi
- * @date 2019/01/08 20:25
- * @email 571002217@qq.com
- * @description 分类级别枚举
- */
+
 @Getter
 public enum CategoryRankEnum {
 

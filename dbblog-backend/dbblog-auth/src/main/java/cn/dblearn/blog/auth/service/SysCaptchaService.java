@@ -4,11 +4,7 @@ package cn.dblearn.blog.auth.service;
 import java.awt.image.BufferedImage;
 
 /**
- * SysCaptchaService
- *
- * @author bobbi
- * @date 2018/10/19 18:52
- * @email 571002217@qq.com
+ * SysCaptchaServic
  * @description 验证码类
  */
 public interface SysCaptchaService {

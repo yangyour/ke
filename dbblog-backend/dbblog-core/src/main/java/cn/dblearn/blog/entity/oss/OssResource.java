@@ -15,7 +15,7 @@ import java.io.Serializable;
  * 云存储资源表
  * </p>
  *
- * @author bobbi
+ * @author com.wu
  * @since 2018-11-30
  */
 @Data

@@ -15,10 +15,6 @@ import java.util.List;
 
 /**
  * TimeLineServiceImpl
- *
- * @author bobbi
- * @date 2019/02/24 20:47
- * @email 571002217@qq.com
  * @description
  */
 @Service

@@ -7,9 +7,6 @@
 ///**
 // * ArticleRepository
 // *
-// * @author bobbi
-// * @date 2019/03/13 15:00
-// * @email 571002217@qq.com
 // * @description
 // */
 //@Component

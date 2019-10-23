@@ -13,7 +13,7 @@ import java.util.List;
  * 标签 Mapper 接口
  * </p>
  *
- * @author bobbi
+ * @author com.wu
  * @since 2018-11-07
  */
 @Mapper

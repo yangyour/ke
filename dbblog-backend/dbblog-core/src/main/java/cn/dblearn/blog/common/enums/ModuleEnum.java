@@ -5,9 +5,6 @@ import lombok.Getter;
 /**
  * TypeEnum
  *
- * @author bobbi
- * @date 2019/01/08 20:21
- * @email 571002217@qq.com
  * @description 模块枚举
  */
 @Getter

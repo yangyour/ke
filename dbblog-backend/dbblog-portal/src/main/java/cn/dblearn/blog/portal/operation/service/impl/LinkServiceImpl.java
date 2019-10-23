@@ -11,9 +11,6 @@ import java.util.List;
 /**
  * LinkService
  *
- * @author bobbi
- * @date 2019/02/21 17:10
- * @email 571002217@qq.com
  * @description
  */
 @Service("linkPortalService")

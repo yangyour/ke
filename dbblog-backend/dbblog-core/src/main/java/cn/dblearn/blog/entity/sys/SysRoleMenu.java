@@ -13,8 +13,6 @@ import java.io.Serializable;
  * 角色与菜单对应关系
  * </p>
  *
- * @author bobbi
- * @since 2018-10-19
  */
 @Data
 @ApiModel(value="SysRoleMenu对象", description="角色与菜单对应关系")

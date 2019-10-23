@@ -9,9 +9,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * RedisUtils
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/19 21:51
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description redis工具类
  */
 @Component

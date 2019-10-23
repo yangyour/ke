@@ -10,9 +10,9 @@ import java.util.Map;
 /**
  * SysRoleService
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/25 15:36
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description
  */
 public interface SysRoleService extends IService<SysRole> {

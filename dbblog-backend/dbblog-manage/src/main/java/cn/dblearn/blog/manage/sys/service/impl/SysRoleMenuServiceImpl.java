@@ -13,8 +13,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author bobbi
- * @since 2018-10-08
  */
 @Service
 public class SysRoleMenuServiceImpl extends ServiceImpl<SysRoleMenuMapper, SysRoleMenu> implements SysRoleMenuService {

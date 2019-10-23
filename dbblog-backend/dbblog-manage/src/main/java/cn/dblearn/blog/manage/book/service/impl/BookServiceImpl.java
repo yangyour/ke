@@ -28,9 +28,6 @@ import java.util.Map;
  * <p>
  * 图书表 服务实现类
  * </p>
- *
- * @author bobbi
- * @since 2019-01-27
  */
 @Service
 @Slf4j

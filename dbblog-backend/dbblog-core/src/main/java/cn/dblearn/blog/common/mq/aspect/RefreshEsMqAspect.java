@@ -16,9 +16,9 @@ import java.lang.reflect.Method;
 /**
  * RefreshEsMqAspect
  *
- * @author bobbi
+ * @author com.wu
  * @date 2019/03/16 22:53
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description
  */
 @Aspect

@@ -13,7 +13,7 @@ import java.util.Date;
  * 图书表
  * </p>
  *
- * @author bobbi
+ * @author com.wu
  * @since 2019-01-27
  */
 @Data

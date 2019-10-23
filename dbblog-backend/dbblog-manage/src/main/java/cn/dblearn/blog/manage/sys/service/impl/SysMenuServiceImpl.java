@@ -18,9 +18,6 @@ import java.util.List;
 /**
  * SysMenuServiceImpl
  *
- * @author bobbi
- * @date 2018/10/22 12:31
- * @email 571002217@qq.com
  * @description 1、查询用户所属菜单，2、递归构造Z-Tree需要格式的菜单
  */
 @Service

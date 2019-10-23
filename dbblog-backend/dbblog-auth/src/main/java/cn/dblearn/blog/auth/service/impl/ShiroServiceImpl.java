@@ -23,9 +23,6 @@ import java.util.stream.Collectors;
 /**
  * ShiroServiceImpl
  *
- * @author bobbi
- * @date 2018/10/08 19:58
- * @email 571002217@qq.com
  * @description Shiro Service实现类
  */
 @Service

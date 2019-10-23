@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 /**
  * RabbitMqUtils
  *
- * @author bobbi
+ * @author com.wu
  * @date 2019/03/16 22:08
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description
  */
 @Component

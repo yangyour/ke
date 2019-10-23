@@ -5,9 +5,9 @@ import lombok.Data;
 /**
  * SysLoginForm
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/20 14:51
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description 登录表单对象
  */
 @Data

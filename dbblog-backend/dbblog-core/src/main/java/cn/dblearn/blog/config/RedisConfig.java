@@ -19,10 +19,7 @@ import java.util.Map;
 
 /**
  * RedisConfig
- *
- * @author bobbi
- * @date 2018/10/19 21:00
- * @email 571002217@qq.com
+ *m
  * @description redis配置
  */
 @Configuration

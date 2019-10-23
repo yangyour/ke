@@ -6,9 +6,6 @@ import lombok.Data;
 /**
  * MyException
  *
- * @author bobbi
- * @date 2018/10/07 13:54
- * @email 571002217@qq.com
  * @description 自定义异常
  */
 @Data
