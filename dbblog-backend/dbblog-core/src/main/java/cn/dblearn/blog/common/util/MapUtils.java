@@ -5,9 +5,9 @@ import java.util.HashMap;
 /**
  * MapUtils
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/22 19:38
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description Map工具类
  */
 public class MapUtils extends HashMap<String,Object> {

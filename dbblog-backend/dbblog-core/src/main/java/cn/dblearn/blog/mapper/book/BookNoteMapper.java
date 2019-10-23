@@ -15,8 +15,6 @@ import java.util.Map;
  * 笔记 Mapper 接口
  * </p>
  *
- * @author bobbi
- * @since 2019-02-13
  */
 @Mapper
 public interface BookNoteMapper extends BaseMapper<BookNote> {

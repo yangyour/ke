@@ -14,10 +14,6 @@ import java.util.List;
 
 /**
  * Recommend
- *
- * @author bobbi
- * @date 2019/02/22 13:40
- * @email 571002217@qq.com
  * @description
  */
 @RestController("recommendPortalController")

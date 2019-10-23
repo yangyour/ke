@@ -27,9 +27,6 @@ import java.time.LocalDateTime;
 /**
  * ViewLogAspect
  *
- * @author bobbi
- * @date 2019/02/15 14:56
- * @email 571002217@qq.com
  * @description
  */
 @Aspect

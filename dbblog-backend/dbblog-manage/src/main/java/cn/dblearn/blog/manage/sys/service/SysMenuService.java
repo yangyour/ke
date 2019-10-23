@@ -8,9 +8,6 @@ import java.util.List;
 /**
  * SysMenuService
  *
- * @author bobbi
- * @date 2018/10/22 12:31
- * @email 571002217@qq.com
  * @description
  */
 public interface SysMenuService extends IService<SysMenu> {

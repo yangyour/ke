@@ -26,9 +26,6 @@ import java.util.Map;
  * <p>
  * 标签 前端控制器
  * </p>
- *
- * @author bobbi
- * @since 2019-01-21
  */
 @RestController
 @CacheConfig(cacheNames = RedisCacheNames.TAG)

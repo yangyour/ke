@@ -10,9 +10,6 @@ import java.util.List;
 /**
  * RecommendVo
  *
- * @author bobbi
- * @date 2019/02/22 10:49
- * @email 571002217@qq.com
  * @description
  */
 @Data

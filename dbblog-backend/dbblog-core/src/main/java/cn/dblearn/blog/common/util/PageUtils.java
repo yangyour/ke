@@ -25,9 +25,9 @@ import java.util.List;
 /**
  * PageUtils
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/19 21:51
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description 分页工具类
  */
 @Data
@@ -43,7 +43,7 @@ public class PageUtils implements Serializable {
 	private long currPage;
 	//列表数据
 	private List<?> list;
-	
+
 	/**
 	 * 分页
 	 * @param list        列表数据
@@ -71,5 +71,5 @@ public class PageUtils implements Serializable {
 	}
 
 
-	
+
 }

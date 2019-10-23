@@ -14,9 +14,6 @@ import java.util.Map;
 /**
  * CategoryServiceImpl
  *
- * @author bobbi
- * @date 2019/02/19 15:33
- * @email 571002217@qq.com
  * @description
  */
 @Service("categoryPortalService")

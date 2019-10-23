@@ -19,9 +19,6 @@ import java.util.List;
 /**
  * RecommendServiceImpl
  *
- * @author bobbi
- * @date 2019/02/22 13:42
- * @email 571002217@qq.com
  * @description
  */
 @Service("recommendPortalService")

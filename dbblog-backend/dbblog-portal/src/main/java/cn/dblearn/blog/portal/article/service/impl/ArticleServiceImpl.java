@@ -22,8 +22,6 @@ import java.util.Map;
  * 文章 服务实现类
  * </p>
  *
- * @author bobbi
- * @since 2018-11-07
  */
 @Service("ArticlePortalService")
 public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> implements ArticleService {

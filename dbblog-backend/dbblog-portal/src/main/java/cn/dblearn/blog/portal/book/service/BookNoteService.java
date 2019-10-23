@@ -11,9 +11,6 @@ import java.util.Map;
 /**
  * BookNoteAdminService
  *
- * @author bobbi
- * @date 2018/11/21 12:47
- * @email 571002217@qq.com
  * @description
  */
 public interface BookNoteService extends IService<BookNote> {

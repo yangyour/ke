@@ -5,9 +5,9 @@ import lombok.Data;
 /**
  * PasswordForm
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/10/26 17:40
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description
  */
 @Data

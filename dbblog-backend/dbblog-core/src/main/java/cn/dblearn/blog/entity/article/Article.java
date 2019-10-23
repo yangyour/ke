@@ -8,10 +8,10 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.elasticsearch.annotations.DateFormat;
-import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
-import org.springframework.data.elasticsearch.annotations.FieldType;
+//import org.springframework.data.elasticsearch.annotations.DateFormat;
+//import org.springframework.data.elasticsearch.annotations.Document;
+//import org.springframework.data.elasticsearch.annotations.Field;
+//import org.springframework.data.elasticsearch.annotations.FieldType;
 
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
@@ -22,12 +22,10 @@ import java.util.Date;
  * 文章
  * </p>
  *
- * @author bobbi
- * @since 2018-11-07
  */
 @Data
 @ApiModel(value="BlogArticle对象", description="文章")
-@Document(indexName = "dbblog",type = "article")
+//@Document(indexName = "dbblog",type = "article")
 public class Article implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -64,11 +62,11 @@ public class Article implements Serializable {
     private Integer coverType;
 
     @ApiModelProperty(value = "创建时间")
-    @Field(type = FieldType.Date, format = DateFormat.none)
+//    @Field(type = FieldType.Date, format = DateFormat.none)
     private Date createTime;
 
     @ApiModelProperty(value = "更新时间")
-    @Field(type = FieldType.Date, format = DateFormat.none)
+//    @Field(type = FieldType.Date, format = DateFormat.none)
     private Date updateTime;
 
     @ApiModelProperty(value = "是否推荐文章")

@@ -8,9 +8,7 @@ import java.util.List;
 /**
  * LinkService
  *
- * @author bobbi
- * @date 2019/02/21 17:09
- * @email 571002217@qq.com
+
  * @description
  */
 public interface LinkService extends IService<Link> {

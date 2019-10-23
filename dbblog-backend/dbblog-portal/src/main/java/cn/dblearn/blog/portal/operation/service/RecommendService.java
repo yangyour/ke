@@ -9,9 +9,6 @@ import java.util.List;
 /**
  * RecommendService
  *
- * @author bobbi
- * @date 2019/02/22 13:41
- * @email 571002217@qq.com
  * @description
  */
 public interface RecommendService extends IService<Recommend> {

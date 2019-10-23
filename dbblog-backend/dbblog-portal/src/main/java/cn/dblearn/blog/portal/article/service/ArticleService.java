@@ -13,8 +13,6 @@ import java.util.Map;
  * 文章 服务类
  * </p>
  *
- * @author bobbi
- * @since 2018-11-07
  */
 public interface ArticleService extends IService<Article> {
 

@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
  * 阅读日志
  * </p>
  *
- * @author bobbi
+ * @author com.wu
  * @since 2019-02-15
  */
 @Data

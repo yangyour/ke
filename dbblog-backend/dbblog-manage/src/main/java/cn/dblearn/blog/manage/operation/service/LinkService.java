@@ -11,8 +11,6 @@ import java.util.Map;
  * 友链 服务类
  * </p>
  *
- * @author bobbi
- * @since 2019-02-14
  */
 public interface LinkService extends IService<Link> {
 

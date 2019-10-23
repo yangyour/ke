@@ -19,8 +19,6 @@ import java.util.Map;
  * 友链 服务实现类
  * </p>
  *
- * @author bobbi
- * @since 2019-02-14
  */
 @Service
 @Slf4j

@@ -9,9 +9,6 @@ import java.util.List;
 /**
  * ArticleDto
  *
- * @author bobbi
- * @date 2019/01/08 19:04
- * @email 571002217@qq.com
  * @description
  */
 @Data

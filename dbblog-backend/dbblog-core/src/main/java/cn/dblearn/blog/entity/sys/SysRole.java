@@ -17,8 +17,6 @@ import java.util.List;
  * 角色
  * </p>
  *
- * @author bobbi
- * @since 2018-10-19
  */
 @Data
 @ApiModel(value="SysRole对象", description="角色")

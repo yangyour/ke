@@ -13,8 +13,6 @@ import java.io.Serializable;
  * 推荐
  * </p>
  *
- * @author bobbi
- * @since 2019-02-22
  */
 @Data
 @ApiModel(value="Recommend对象", description="推荐")

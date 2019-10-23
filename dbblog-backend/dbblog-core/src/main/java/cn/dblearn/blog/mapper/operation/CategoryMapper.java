@@ -12,7 +12,7 @@ import java.util.Map;
  *  Mapper 接口
  * </p>
  *
- * @author bobbi
+ * @author com.wu
  * @since 2018-12-17
  */
 @Mapper

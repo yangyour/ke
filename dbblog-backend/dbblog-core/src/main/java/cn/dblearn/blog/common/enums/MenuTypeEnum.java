@@ -5,9 +5,9 @@ import lombok.Getter;
 /**
  * MenuTypeEnum
  *
- * @author bobbi
+ * @author com.wu
  * @date 2019/01/08 20:24
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description 菜单类型
  */
 @Getter

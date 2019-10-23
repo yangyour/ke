@@ -10,8 +10,6 @@ import java.io.Serializable;
  * 系统用户Token
  * </p>
  *
- * @author bobbi
- * @since 2018-10-19
  */
 @Data
 @ApiModel(value="SysUserToken对象", description="系统用户Token")

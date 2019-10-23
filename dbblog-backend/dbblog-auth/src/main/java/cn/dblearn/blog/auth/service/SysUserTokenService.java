@@ -6,9 +6,6 @@ import cn.dblearn.blog.entity.sys.SysUserToken;
 /**
  * SysUserTokenService
  *
- * @author bobbi
- * @date 2018/10/20 15:17
- * @email 571002217@qq.com
  * @description
  */
 public interface SysUserTokenService {

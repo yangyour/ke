@@ -12,8 +12,6 @@ import java.util.List;
  * 推荐 Mapper 接口
  * </p>
  *
- * @author bobbi
- * @since 2019-02-22
  */
 @Mapper
 public interface RecommendMapper extends BaseMapper<Recommend> {

@@ -26,9 +26,6 @@ import java.util.Map;
 /**
  * SysRoleServiceImpl
  *
- * @author bobbi
- * @date 2018/10/25 15:36
- * @email 571002217@qq.com
  * @description
  */
 @Service

@@ -10,9 +10,9 @@ import java.util.Map;
 /**
  * ArticleService
  *
- * @author bobbi
+ * @author com.wu
  * @date 2018/11/21 12:47
- * @email 571002217@qq.com
+ * @email 312054439@qq.com
  * @description
  */
 public interface ArticleService extends IService<Article> {

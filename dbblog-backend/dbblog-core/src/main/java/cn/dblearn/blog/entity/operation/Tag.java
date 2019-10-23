@@ -14,8 +14,6 @@ import java.io.Serializable;
  * 标签
  * </p>
  *
- * @author bobbi
- * @since 2018-11-07
  */
 @Data
 @ApiModel(value="Tag对象", description="标签")

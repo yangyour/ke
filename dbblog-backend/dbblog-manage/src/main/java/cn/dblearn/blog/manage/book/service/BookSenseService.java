@@ -7,9 +7,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * <p>
  * 读后感 服务类
  * </p>
- *
- * @author bobbi
- * @since 2019-02-13
  */
 public interface BookSenseService extends IService<BookSense> {
 
