@@ -9,6 +9,7 @@
         <module>dbblog-auth</module>
         <module>dbblog-portal</module>
         <module>dbblog-search</module>
+        <module>dbblog-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -161,6 +162,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-amqp</artifactId>
                 <version>${springboot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
