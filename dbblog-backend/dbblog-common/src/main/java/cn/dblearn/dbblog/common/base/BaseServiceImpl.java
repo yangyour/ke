@@ -7,6 +7,8 @@ import cn.dblearn.dbblog.common.context.log.CudType;
 import cn.dblearn.dbblog.common.core.SettingUtil;
 import cn.dblearn.dbblog.common.util.ClassUtil;
 import cn.dblearn.dbblog.common.util.ReflectionUtil;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +22,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 
-public abstract class BaseServiceImpl<T extends BaseEntity> implements BaseService<T> {
+public abstract class BaseServiceImpl<T extends BaseEntity> extends ServiceImpl<BaseMapper<T>, T> implements BaseService<T> {
 
 	protected static final Logger logger = LoggerFactory.getLogger(BaseServiceImpl.class);
 
@@ -37,6 +39,8 @@ public abstract class BaseServiceImpl<T extends BaseEntity> implements BaseServi
 	 * 金额系统加工处理类型名称
 	 */
 	private static final String AMOUNT_PROCESS_PROPERTY_TYPE_NAME = "java.math.BigDecimal";
+
+
 
     @Autowired
     protected Mapper<T> mapper;
@@ -88,13 +92,15 @@ public abstract class BaseServiceImpl<T extends BaseEntity> implements BaseServi
     	return mapper.selectCountByExample(example);
     }
 
-    public int save(T entity) {
+    public boolean save(T entity) {
     	preSave(entity);
     	int result = mapper.insert(entity);
-    	if(result>0){
+		Boolean b=false;
+		if(result>0){
     		afterSave(entity);
+    		b=true;
     	}
-        return result;
+        return b;
     }
 
     public int saveSelective(T entity) {

@@ -24,17 +24,18 @@
 
 package cn.dblearn.dbblog.common.base;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 
 @Service
-public interface BaseService<T extends BaseEntity> {
+public interface BaseService<T extends BaseEntity> extends IService<T> {
 	T selectByKey(Object key);
 
 
-	int save(T entity);
+    boolean save(T entity);
     int saveSelective(T entity);
 
     int delete(Object key);

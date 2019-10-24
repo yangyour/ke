@@ -11,6 +11,11 @@
 
     <artifactId>dbblog-core</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>cn.dblearn</groupId>
+            <artifactId>dbblog-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--工具包-->
         <dependency>
             <groupId>org.projectlombok</groupId>
