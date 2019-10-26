@@ -119,7 +119,6 @@ public class ExtSimpleMappingExceptionResolver extends SimpleMappingExceptionRes
 		}
 
 		String httpUrl = StringUtils.isEmpty(contextpath)?requestUri:StringUtils.substringAfter(requestUri, contextpath);
-		Long siteId = RequestSiteUtil.getSiteId(request);
 		ExceptionLogBean exLogs = new ExceptionLogBean();
 		exLogs.setName(name);
 		exLogs.setMessage(message);
@@ -132,7 +131,6 @@ public class ExtSimpleMappingExceptionResolver extends SimpleMappingExceptionRes
 		exLogs.setController(controller);
 		exLogs.setControllerMethod(controllerMethod);
 		exLogs.setTitle(title.toString());
-		exLogs.setSiteId(siteId);
 
 		Principal principal = UserUtil.currentLoginPrincipal();
 		if(principal!=null){

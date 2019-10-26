@@ -1,9 +1,9 @@
-package cn.dblearn.blog.manage.logs.aop;
+package cn.dblearn.blog.manage.aop;
 
 import cn.dblearn.blog.common.enums.SysOperateLogType;
 import cn.dblearn.blog.entity.logs.SysOperateLogs;
 import cn.dblearn.blog.manage.logs.service.SysOperateLogsService;
-import cn.dblearn.blog.manage.logs.utils.SysOptManager;
+import cn.dblearn.blog.manage.utils.SysOptManager;
 import cn.dblearn.dbblog.common.annotation.SysOptLog;
 import cn.dblearn.dbblog.common.context.ContextThreadVariable;
 import cn.dblearn.dbblog.common.core.UserUtil;

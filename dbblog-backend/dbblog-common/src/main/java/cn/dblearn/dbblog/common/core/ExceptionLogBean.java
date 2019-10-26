@@ -77,8 +77,7 @@ public class ExceptionLogBean{
     @Column(name = "stack_trace")
     private String stackTrace;
 
-    @Column(name = "site_id")
-    private Long siteId;
+
 
     /**
      * 获取异常标题
@@ -310,11 +309,4 @@ public class ExceptionLogBean{
         this.stackTrace = stackTrace;
     }
 
-    public Long getSiteId() {
-        return siteId;
-    }
-
-    public void setSiteId(Long siteId) {
-        this.siteId = siteId;
-    }
 }

@@ -1,4 +1,4 @@
-package cn.dblearn.blog.manage.logs.utils;
+package cn.dblearn.blog.manage.utils;
 
 import cn.dblearn.blog.entity.logs.SysCudLogs;
 import cn.dblearn.blog.entity.logs.SysOperateLogs;

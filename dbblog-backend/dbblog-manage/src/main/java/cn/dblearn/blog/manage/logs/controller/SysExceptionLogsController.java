@@ -48,8 +48,7 @@ public class SysExceptionLogsController extends BaseController {
     public PageInfo<SysExceptionLogs> getPage(@ModelAttribute PageBean page, @ModelAttribute SysExceptionLogs entity
             , @RequestParam(name = "startTime", required = false) String startTime
             , @RequestParam(name = "endTime", required = false) String endTime
-            , @RequestParam(name = "siteId", required = false) Long siteId,
-                                              HttpServletRequest request) {
+                                         ) {
         PageHelper.startPage(page.getPage(), page.getRows());
         Map<String, Object> queryfilter = Maps.newHashMap();
         if (StringUtilEx.isNotEmpty(startTime)) {

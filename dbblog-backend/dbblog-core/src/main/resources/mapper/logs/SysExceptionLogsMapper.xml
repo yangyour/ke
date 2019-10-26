@@ -67,9 +67,6 @@
             <if test="name!=null and name!=''">
                 and tb.name like CONCAT('%',#{name},'%')
             </if>
-            <if test="siteId!=null">
-                and tb.site_id = #{siteId}
-            </if>
             <if test="queryfilter!=null and queryfilter.size>0">
                 <if test="queryfilter['startTime']!=null and queryfilter['startTime']!=''">
                     <![CDATA[and tb.created_at >= #{queryfilter.startTime}]]>

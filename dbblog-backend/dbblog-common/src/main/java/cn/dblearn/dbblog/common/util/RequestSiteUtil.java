@@ -7,9 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public class RequestSiteUtil {
 
-    public static Long getSiteId(HttpServletRequest request) {
-        return (Long) request.getAttribute("siteId");
-    }
+
 
     public static String domain(HttpServletRequest request) {
         String domainUrl = "";
