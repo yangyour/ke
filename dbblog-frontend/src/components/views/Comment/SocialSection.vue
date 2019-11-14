@@ -29,7 +29,7 @@ export default {
         var gitalk = new Gitalk({
           clientID: 'f64b438b561756d57956',
           clientSecret: '72a4f897abb5f76612b4afa7598d7b629550391a',
-          repo: 'https://github.com/yangyour',
+          repo: 'ke',
           owner: 'yangyour',
           labels: [this.type],
           admin: ['yangyour'],
