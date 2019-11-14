@@ -38,7 +38,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: 'ddwu的个人博客 | 心心向你'
+            title: '武旭阳的个人博客 | 心心向你'
           }
         },
         {

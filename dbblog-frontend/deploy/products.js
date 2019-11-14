@@ -11,7 +11,7 @@ function parse (src) {
   const res = {}
   src.split('\n').forEach(line => {
     // matching "KEY' and 'VAL' in 'KEY=VAL'
-    const keyValueArr = line.match(/^\s*([\w\.\-]+)\s*=\s*(.*)?\s*$/)
+    const keyValueArr = line.match(/^\s*([\w\\-]+)\s*=\s*(.*)?\s*$/)
     // matched?
     if (keyValueArr != null) {
       const key = keyValueArr[1]
@@ -35,7 +35,7 @@ const SERVER_LIST = [
   {
     id: 0,
     name: 'A-生产环境',
-    domain: 'loveying.club',
+    domain: 'www.loveying.club',
     host: '39.105.211.155',
     port: 22,
     username: 'root',
