@@ -5,7 +5,7 @@
     <p class="name">wu</p>
     <p class="desc">Write the code, Change the World</p>
     <ul class="social">
-      <li><a href="https://github.com/llldddbbb" target="_blank"><img src="../../assets/icon/GitHub.png" alt=""></a></li>
+      <li><a href="https://github.com/yangyour/ke" target="_blank"><img src="../../assets/icon/GitHub.png" alt=""></a></li>
     </ul>
     <div class="line"></div>
     <h4>技能值</h4>
