@@ -25,7 +25,7 @@
 - 七牛云 图床
 
 ## 站点演示
-[http://39.105.211.155](http://39.105.211.155)
+[http://www.loveying.club/](http://www.loveying.club/)
 
 ## 模块分层
 ### 后端模块
