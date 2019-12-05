@@ -59,7 +59,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文列表 | ddwu的个人博客 | 心心向你'
+            title: '博文列表 | 武旭阳的个人博客 | 心心向你'
           }
         },
         {
@@ -71,7 +71,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文列表 | ddwu的个人博客 | 心心向你'
+            title: '博文列表 | 武旭阳的个人博客 | 心心向你'
           }
         },
         {
@@ -83,7 +83,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '博文搜索 | ddwu的个人博客 | 心心向你'
+            title: '博文搜索 | 武旭阳的个人博客 | 心心向你'
           }
         },
         {
@@ -113,7 +113,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '阅读 | ddwu的个人博客 | 心心向你'
+            title: '阅读 | 武旭阳的个人博客 | 心心向你'
           }
         },
         {
@@ -125,7 +125,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '阅读 | ddwu的个人博客 | 心心向你'
+            title: '阅读 | 武旭阳的个人博客 | 心心向你'
           }
         },
         {
@@ -137,7 +137,7 @@ let router = new Router({
             footer: CommonFooter
           },
           meta: {
-            title: '时间轴 | ddwu的个人博客 | 心心向你'
+            title: '时间轴 | 武旭阳的个人博客 | 心心向你'
           }
         }
       ]

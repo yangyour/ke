@@ -62,7 +62,7 @@ mybatis-plus:
     refresh: true
 oss:
   qiniu:
-    domain: http://pzpsh7635.bkt.clouddn.com
+    domain: www.loveying.club
     prefix: wozuishuai
     accessKey: PGfMAG7-HUZljEO-X16B0oRg90390n3yDuCKe1so
     secretKey: YJw5RI8pZidU7Gfcoc4jbRM7mW6gw7iJMjH8Xhg7
