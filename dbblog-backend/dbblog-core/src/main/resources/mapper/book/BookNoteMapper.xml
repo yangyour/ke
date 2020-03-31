@@ -47,7 +47,7 @@
     <sql id="homeBookNoteColumn">
         id,title,description,author,read_num,like_num,cover,create_time,book_id,chapter,cover_type,top
     </sql>
-    
+
     <select id="queryPageCondition" resultMap="WithSubList">
         select <include refid="homeBookNoteColumn"/>, 2 as `type` from book_note
         <where>

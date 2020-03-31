@@ -75,41 +75,41 @@ export default {
             this.addCodeLineNumber()
             this.refreshDiectory()
             this.refreshMobileDirectory()
-            document.title = this.article.title + ' | 武旭阳的个人博客 | 一个努力成长中的Java后端程序猿'
+            document.title = this.article.title + ' | Ddwu的个人博客 | 一个努力成长中的Java后端程序猿'
           })
         }
       })
     },
     refreshDiectory () {
       /* eslint-disable*/
-        new TOC('article-main-page', {
-          'level': 5,
-          'top': 200,
-          'class': 'list',
-          'targetId': 'side-toc'
-        })
-        /* eslint-disable */
-        new TocScrollSpy('article-main-page', 'side-toc', {
-          'spayLevel': 5,
-          'articleMarginTop': 0
-        })
-      },
-      refreshMobileDirectory () {
-        /* eslint-disable */
-        new TOC('article-main-page', {
-          'level': 5,
-          'top': 200,
-          'class': 'list',
-          'targetId': 'sidebar-toc'
-        })
-        new TocScrollSpy('article-main-page', 'sidebar-toc', {
-          'spayLevel': 5,
-          'articleMarginTop': 15
-        })
-      }
+      new TOC('article-main-page', {
+        'level': 5,
+        'top': 200,
+        'class': 'list',
+        'targetId': 'side-toc'
+      })
+      /* eslint-disable */
+      new TocScrollSpy('article-main-page', 'side-toc', {
+        'spayLevel': 5,
+        'articleMarginTop': 0
+      })
+    },
+    refreshMobileDirectory () {
+      /* eslint-disable */
+      new TOC('article-main-page', {
+        'level': 5,
+        'top': 200,
+        'class': 'list',
+        'targetId': 'sidebar-toc'
+      })
+      new TocScrollSpy('article-main-page', 'sidebar-toc', {
+        'spayLevel': 5,
+        'articleMarginTop': 15
+      })
     }
-
   }
+
+}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

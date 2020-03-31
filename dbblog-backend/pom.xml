@@ -9,7 +9,6 @@
         <module>dbblog-auth</module>
         <module>dbblog-portal</module>
         <module>dbblog-search</module>
-        <module>dbblog-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

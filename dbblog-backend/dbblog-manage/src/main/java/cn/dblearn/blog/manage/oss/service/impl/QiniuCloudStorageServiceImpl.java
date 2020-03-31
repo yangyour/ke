@@ -53,7 +53,6 @@ public class QiniuCloudStorageServiceImpl extends CloudStorageService {
             log.error(e.getMessage());
             throw new MyException(ErrorEnum.OSS_CONFIG_ERROR);
         }
-
         return config.getQiniuDomain() + "/" + path;
     }
 
